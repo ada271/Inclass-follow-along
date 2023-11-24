@@ -10,6 +10,7 @@
         } */
         .container{
             background-color: lightblue;
+            width: 700px;
         }
         .header{
             background-color: lightcoral;
@@ -102,10 +103,6 @@
                 <input type="color" name="renk" id="color" value="#458015">
             </div>
             <br>
-            <div>                
-                <input type="submit" name="" id="">
-                <input type="reset" value="Sıfırla">
-            </div>
             <div>
                 <label for="date">Doğum Tarihiniz</label>
                 <br>
@@ -121,12 +118,76 @@
                 <label for="tel">Telefon Numaranız:</label>
                 <br>
                 <input type="tel" name="no" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="XXX-XXX-XX-XX">
+                
+            </div>
+            <br>
+            <!-- SELECT -->
+            <div>
+                <label for="hobi">Hobilerinizi Seçin:</label>
+                <br>
+                <select name="hobi" id="hobi">
+                    <option value="muzik">Müzik</option>
+                    <option value="spor">Spor</option>
+                    <option value="resim">Resim</option>
+                    <option value="satranc">Satranç</option>
+                </select>
+            </div>
+            <!-- option group -->
+            <div>
+                <label for="spor">Sevdiğiniz Spor:</label>
+                <br>
+                <select name="" id="">
+                    <optgroup label="Su Sporları">
+                        <option value="yuzme">Yüzme</option>
+                        <option value="dalis">Dalış</option>
+                        <option value="sorf">Sörf</option>
+                    </optgroup>
 
+                    <optgroup label="Dövüş Sporları">
+                        <option value="karate">Karate</option>
+                        <option value="aikido">Aikido</option>
+                    </optgroup>
+                </select>
             </div>
             
+            <div>
+                <label for="yorum">Yorum:</label>
+                <br>
+                <textarea name="yorum" id="yorum" cols="30" rows="10" style="resize:none">
 
+                </textarea>
+            </div>
+            <br>
+            <!-- DATALISTS -->
+            <div>
+                <label for="ulke">Ziyaret Etmek İstediğiniz Ülkeler:</label>
+                <br>
+                <input type="text" list="ulke">
+                <datalist id="ulke">
+                    <option value="Almanya"></option>
+                    <option value="USA"></option>
+                    <option value="Polonya"></option>
+                    <option value="Japonya"></option>
+                    <option value="Mısır"></option>
+                </datalist>
+            </div>
 
-
+            <div>
+                <fieldset>
+                    <legend>ID ve Vize Bilgisi</legend>
+                    <label for="id">ID:</label>
+                    <br>
+                    <input type="text"><br>
+                    <label for="vizeTuru">Vize Türü:</label><br>
+                    <input type="text">
+                </fieldset>
+            </div>
+            
+            
+            <div>                
+                <input type="submit" name="" id="">
+                <input type="reset" value="Sıfırla">
+            </div>
         </form>
         <br>
     </div>
