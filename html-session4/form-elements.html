@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            margin: 10px 10px;
+        } */
+        .container{
+            background-color: lightblue;
+        }
+        .header{
+            background-color: lightcoral;
+            display: flex;
+            align-items: center;
+        }
+        .header img{
+            padding: 10px;
+        }
+        form{
+            padding: 10px 20px;
+        }
+        form *{
+            margin: 5px;
+        }
+        body{
+            margin-bottom: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="images/avatar-men.png" alt="" width="20%">
+            <h1>Personel Tanıma Formu</h1>
+            
+        </div>
+        <form action="result.html">
+            <div>
+                <label for="name">Adınız:</label>
+                <br>
+                <input type="text" id="name" name="ad">
+            </div>
+            <div>
+                <label for="lastname">Soyadınız:</label>
+                <br>
+                <input type="text" name="soyad" id="lastname">
+             </div>
+            <div>
+                <label for="password">Şifreniz</label>
+                <br>
+                <input type="password" name="sifre" id="password" required>            
+            </div>
+            <div>
+                <label for="email">E-Postanız:</label>
+                <br>
+                <input type="email" name="" id="email" required>
+            </div>
+            <div>
+                <label for="age">Yaşınız:</label><br>
+                <input type="number" id="age" name="yas">
+            </div>
+
+            <!-- Radio -->
+            <div>
+                <label for="gender">Cinsiyetiniz:</label>
+                <br>
+                <input type="radio" name="cinsiyet" id="kadin" value="kadin">
+                <label for="kadin">Kadın</label>
+                <input type="radio" name="cinsiyet" id="erkek" value="erkek">
+                <label for="erkek">Erkek</label>
+                
+                
+            </div>
+            <br>
+
+            <!-- Checkbox -->
+            <div>
+                <label for="">Müsait Günleriniz:</label>
+                <br>
+                <input type="checkbox" name="day" id="pzt" value="pazartesi">
+                <label for="pzt">Pazartesi</label>
+                <br>
+                <input type="checkbox" name="day" id="sali" value="sali">
+                <label for="sali">Salı</label>
+                <br>
+                <input type="checkbox" name="day" id="cars" value="carsamba">
+                <label for="cars">Çarşamba</label>
+                <br>
+                <input type="checkbox" name="day" id="pers" value="persembe">
+                <label for="pers">Perşembe</label>
+                <br>
+                <input type="checkbox" name="day" id="cuma" value="cuma">
+                <label for="cuma">Cuma</label>
+                
+            </div>
+            
+            <div>
+                <label for="color">Sevdiğiniz Renk:</label>
+                <input type="color" name="renk" id="color" value="#458015">
+            </div>
+            <br>
+            <div>                
+                <input type="submit" name="" id="">
+                <input type="reset" value="Sıfırla">
+            </div>
+            <div>
+                <label for="date">Doğum Tarihiniz</label>
+                <br>
+                <input type="date" name="dogum-tarih" id="date" min="2020-01-01" max="2024-01-01">
+            </div>
+            <div>
+                <label for="foto">Fotoğrafınızı Yükleyiniz</label>
+                <br>
+                <input type="file" id="foto" name="fotograf">
+            </div>
+            <br>
+            <div>
+                <label for="tel">Telefon Numaranız:</label>
+                <br>
+                <input type="tel" name="no" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="XXX-XXX-XX-XX">
+
+            </div>
+            
+
+
+
+        </form>
+        <br>
+    </div>
+    
+    
+</body>
+</html>
