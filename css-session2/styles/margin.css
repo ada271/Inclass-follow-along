@@ -1,0 +1,38 @@
+*{
+    /* border: 1px solid red; */
+    margin: 0;
+}
+
+h1{
+    background-color: cadetblue;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.parag1{
+    background-color: rgb(112, 50, 50);
+    margin-left: 25px;
+}
+
+.parag2{
+    background-color: coral;
+    margin: 40px 10px 20px 5px;
+}
+
+.parag3{
+    background-color: lightblue;
+    width: 300px;
+    margin: 20px auto;
+
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+.overlap{
+    text-align: center;
+    margin-top: -20px;
+    color: red;
+}
