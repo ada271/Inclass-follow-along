@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+.img-float{
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.p1{
+    background-color: coral;
+}
+
+.p2 {
+    clear: left;
+    background-color: lightblue;
+}
+
+.box1{
+    background-color: salmon;
+    float: left;
+    /* margin-left: 20px; */
+    width: 33%;
+    height: 300px;
+    
+}
+.box2{
+    background-color: lightseagreen;
+    float: left;
+    width: 33%;
+    height: 200px;
+}
+.box3{
+    background-color: fuchsia;
+    width: 33%;
+    float: left;
+    height: 100px;
+}
