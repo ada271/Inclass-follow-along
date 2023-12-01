@@ -1,7 +1,9 @@
 .main{
     background-color: aquamarine;
     width: 90%;
-    margin: 30px auto;
+    margin: 50px auto 1000px;
+    position: relative;
+    padding-bottom: 500px;
 }
 
 .box1{
@@ -22,8 +24,27 @@
     background: rgba(100, 148, 237, 0.664);
     width: 100px;
     height: 100px;
-    position: fixed;
-    top: 100px;
-    right: 100px;
+    /* position: fixed;
+    top: 0;
+    right: 0; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    
     
 }
+
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    position: sticky;
+    top: 10px;
+}
+
+/* p{
+    background-color: fuchsia;
+    border-radius: 20px;
+    position: sticky;
+    top: 10px;
+} */
