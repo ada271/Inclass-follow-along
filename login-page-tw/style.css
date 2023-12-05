@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -17,17 +19,20 @@ body{
     width: 500px;
     margin: auto;
     padding: 65px 55px 54px;
+    border-radius: 14px;
 }
 
 #title{
     text-align: center;
     padding-bottom: 49px;
+    font-family: 'Poppins', sans-serif;
 }
+
+
 
 .login-info{
     margin: auto;
     width: 100%;
-    border: 1px solid red;
     
 }
 
@@ -47,9 +52,23 @@ body{
     padding: 10px;
 }
 
+.placeholder{
+    margin-bottom: 10px;
+}
+
+.username label{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.password label{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
 
 .forgot {
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     display: block;
     text-align: right;
     text-decoration: none;
@@ -66,6 +85,7 @@ body{
     background-image: url(assets/bg-01.jpg);
     border-radius: 50px;
     color: white;
+    background-size: cover;
     
 
 }
@@ -88,7 +108,7 @@ body{
     color: white;
     border-radius: 50%;
     /* font-size: 25px; */
-    padding-top: 10px;
+    padding-top: 12px;
     margin: 5px;
     
     
@@ -113,4 +133,28 @@ body{
 
 .placeholder input:focus{
    outline: none;
+}
+
+.sign-up{
+    text-align: center;
+}
+
+.sign-up p{
+    margin-bottom: 5px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.sign-up a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 50px;
+    background-image: url(assets/bg-01.jpg) ;
+    background-size: cover;
+
+}
+
+i{
+    color: grey;
 }
