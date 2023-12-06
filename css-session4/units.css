@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.abs{
+    background-color: coral;
+    width: 250px;
+}
+
+.div2{
+    background-color: crimson;
+    width: 50%;
+}
+.div3{
+    background-color: aqua;
+    width: 50%;
+}
+.div4{
+    background-color: rgb(153, 255, 0);
+    width: 70vw;
+}
