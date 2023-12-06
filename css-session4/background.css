@@ -30,5 +30,5 @@ img{
 .img4:hover{
     opacity: 1;
     cursor: pointer;
-    transition: ease-in 2s;
+    transition: ease-in 1s;
 }
