@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    
+}
+
+header a img {
+  width: 60px;
+}
+
+.sign-in {
+  float: right;
+  padding-top: 1.7rem;
+  padding-right: 0.5rem;
+}
+
+.sign-in a{
+    color: #920101;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.sign-in a:hover{
+    border-bottom: 2px solid #920101;
+}
+
+.log{
+    border-right: 2px solid #920101;
+    padding-right: 5px;
+}
+
+/* nav sticky */
+.sticky{
+    background-color: #FBDA61;
+background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    padding: 2rem;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.sticky a{
+    text-decoration: none;
+    font-family: "DynaPuff";
+    color: black;
+    margin: 10px;
+}
+
+.sticky a:hover{
+    color: white;
+}
+
+/* nav banner */
+nav.banner{
+ position: relative;
+ line-height: 3rem;
+}
+
+nav.banner img{
+    width: 100%;
+    max-height: calc(100vh - 170px);
+}
+
+nav.banner .hero{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.hero h2{
+    color: white;
+    font-size: 3rem;
+    text-shadow: 0 2px 4px black;
+
+}
+
+.hero h3{
+    color: red;
+    font-size: 1rem;
+    text-shadow: 0 2px 4px black;
+}
+
+.hero button{
+    padding: 0.7rem;
+    border: none;
+    background-color: #D9AFD9;
+    border-radius: 10px;
+    font-weight: 700;
+
+}
+
+.hero button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+
+
