@@ -1,0 +1,21 @@
+/* group selectors */
+
+div p{
+    /* background-color: magenta; */
+}
+
+.container div p {
+    /* background-color: red; */
+}
+
+.box p{
+    /* background-color: olive; */
+}
+
+div + p{
+    /* background-color: fuchsia; */
+}
+
+.container +p{
+    background-color: aqua;
+}
