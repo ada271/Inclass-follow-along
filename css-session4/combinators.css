@@ -19,3 +19,30 @@ div + p{
 .container +p{
     background-color: aqua;
 }
+
+/* attribute selector */
+
+h2[title="baslik1"] {
+    background-color: aquamarine;
+}
+
+p[title="par1"] {
+    background-color: fuchsia;
+}
+
+a{
+    background-color: orange;
+}
+
+a[target="_blank"] {
+    background-color: crimson;
+}
+
+/* Pseudo Selectors */
+p[title="par2"]::first-line{
+    font-size: 2rem;
+}
+
+p[title="par1"]::first-letter{
+    font-size: 3rem;
+}
