@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 1rem;
+}
+
+ul{
+    background-color: yellow;
+    padding: 1rem;
+    list-style-type: none;
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem 3rem;
+    justify-content: space-evenly;
+}
+
+li{
+    background-color: magenta;
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+    
+}
