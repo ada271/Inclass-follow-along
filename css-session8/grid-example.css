@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4,15vh) 15vh 15vh;
+}
+.parca{
+    border: 2px solid red;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parca1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
