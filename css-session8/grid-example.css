@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(4,15vh) 15vh 15vh;
+    gap: 10px 15px;
 }
 .parca{
     border: 2px solid red;
@@ -14,4 +15,43 @@
 .parca1{
     grid-column-start: 1;
     grid-column-end: 3;
+    background-color: pink;
 }
+
+.parca4{
+    background-color: orange;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.parca6{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgb(196, 6, 196);
+
+    /* kisa yol */
+    grid-area: 2/3/4/5;
+}
+
+.parca8{
+    grid-column-start: 1;
+    grid-column-end:3;
+    background-color: aqua;
+}
+
+.parca9{
+    grid-row-start:4;
+    grid-row-end:6;
+    grid-column-start:3;
+    background-color: rgb(224, 71, 71);
+}
+
+.parca12{
+    grid-row-start:5;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    background-color: lightblue;
+}
+
