@@ -1,0 +1,19 @@
+.container{
+    background-color: lightpink;
+    width: 100vw;
+    height: 50vh;
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    width: 50%;
+    height: 50%;
+}
+
+.container1 div{
+    border: 1px solid red;
+    
+}
+
