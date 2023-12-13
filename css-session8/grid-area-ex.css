@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display:grid;
+    height: 100vh;
+    grid-template-rows:20% 40% 20% 20% 20% 20% 20%;
+    grid-template-columns:30% 50% 20%;
+    background-color: bisque;
+
+    grid-template-areas: 
+    "header header header"
+    "main main side"
+    "footer footer footer"
+    "footer footer footer"
+    
+    
+    ;
+}
+
+.box{
+    border: 1px solid red;
+}
+
+.box1{
+    grid-area: header;
+    background-color: aquamarine;
+}
+
+.box2{
+    grid-area:main;
+    background-color: maroon;
+}
+
+.box3{
+    grid-area: side;
+    background-color: lightpink;
+}
+
+.box4{
+    grid-area:footer;
+    background-color: chocolate;
+}
+
