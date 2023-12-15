@@ -60,11 +60,28 @@
 
 /*! -------------- 4- INSTRUCTORS ------------------ */
 
+#instructors .card:hover{
+    transform: scale(1.05);
+    /* transition-duration: 1s; */
+
+}
+
+#instructors .card{
+    transition: all .8s;
+}
+
 .card .bi{
     font-size: 2rem;
     color: var(--red);
+    /* background-color: var(--red); */  
+    transition: all .6s;
     
 }
+
+.card .bi:hover{
+    opacity: 0.7;
+}
+
 
 /*! -------------- 4- STUDENTS SECTION ------------- */
 
