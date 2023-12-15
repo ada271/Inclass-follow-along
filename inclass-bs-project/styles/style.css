@@ -54,7 +54,17 @@
 
 /*! -------------- 3- ABOUT SECTION ---------------- */
 
+.bi{
+    font-size: 3rem;
+}
+
 /*! -------------- 4- INSTRUCTORS ------------------ */
+
+.card .bi{
+    font-size: 2rem;
+    color: var(--red);
+    
+}
 
 /*! -------------- 4- STUDENTS SECTION ------------- */
 
