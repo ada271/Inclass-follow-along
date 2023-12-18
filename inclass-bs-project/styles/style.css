@@ -121,3 +121,13 @@ section#courses .nav-pills{
     background-color:#a71726;
 }
 /*! -------------- 7- FOOTER ----------------------- */
+
+footer article a{
+    margin-right: 2rem;
+    color: white;
+    font-size: 1rem;
+    transition: color .6s;
+}
+footer article a:hover{  
+    color: var(--red);
+}
