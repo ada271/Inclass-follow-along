@@ -102,4 +102,22 @@ section#courses .nav-pills{
 
 /*! -------------- 6- CONTACT SECTION -------------- */
 
+.form .row .bi{
+    color: var(--red);
+}
+
+.form .row a{
+    color: var(--red);
+    text-decoration: none;
+
+}
+
+.form .btn-submit{
+    background-color: var(--red);
+    border: none;
+}
+
+.form .btn-submit:hover{
+    background-color:#a71726;
+}
 /*! -------------- 7- FOOTER ----------------------- */
