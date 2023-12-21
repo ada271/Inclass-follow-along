@@ -82,3 +82,59 @@ console.log(Math.sqrt(25))
 
 // Math.cbrt kupkok
 console.log(Math.cbrt(64))
+
+/* ---------------------------------- */
+/*               STRINGS              */
+/* ---------------------------------- */
+
+let ad = "Javascript"
+console.log(ad)
+
+let a = new String("HTML")
+console.log(a)
+console.log(a[0])
+
+ad = "Node.js"
+console.log(ad)
+
+// KACIS KARAKTERLERI
+
+// \ kacis arakterli \ ile taninmlanir
+
+// \n yeni bir satira gecmeyi saglar
+
+let deger = "ayse'nin odevi "
+console.log(deger)
+
+let nDeger = 'ayse\'nin odevi'
+console.log(nDeger)
+
+let siir = "Merhaba yeni bir gun \n Neden sisli bu hava"
+console.log(siir)
+
+// string birlestirme
+
+// 1. concat methodu
+let ilkad = "Ali"
+let soyad = "Yilmaz"
+
+console.log(ilkad.concat(soyad))
+
+// 2. + isareti ile concatanation
+
+console.log(ilkad + soyad)
+
+// template literal yontemi
+
+// stringleri dinamik kullanmayi saglar
+
+console.log(`${ilkad} ${soyad}`)
+
+// BOOLEAN DATA TYPE
+// true-false degeri tutar
+
+let isOpen = true
+console.log(typeof isOpen)
+
+let isSmall = 4>15
+console.log(isSmall)
