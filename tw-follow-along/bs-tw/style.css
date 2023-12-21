@@ -50,5 +50,21 @@
     object-fit: cover;
 }
 
-/* TEAM */
+/* ---------------------------------- */
+/*                TEAM                */
+/* ---------------------------------- */
 
+.team img{
+    width: 250px;
+    border: 10px solid #cccccc;
+}
+
+a.social{
+    display:inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 50%;
+    line-height: 40px;
+}
