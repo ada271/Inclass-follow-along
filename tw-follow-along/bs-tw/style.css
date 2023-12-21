@@ -1,0 +1,35 @@
+:root{
+    --red:#dc3545;
+}
+
+
+/* ---------------------------------- */
+/*               BANNER               */
+/* ---------------------------------- */
+
+.banner{
+    background-image: url(img/banner.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: purple;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+/* ---------------------------------- */
+/*              SERVICES              */
+/* ---------------------------------- */
+.circle{
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    color: white;
+    background-color: var(--red);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
