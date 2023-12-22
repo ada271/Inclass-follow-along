@@ -32,20 +32,39 @@ let sure = 225;
 
 let saat = parseInt(sure / 60);
 
-console.log(saat)
+console.log(saat);
 
-let dakika = sure % 60
+let dakika = sure % 60;
 
-console.log(`${sure} dakika ${saat} ${dakika} dakikadir`)
-
+console.log(`${sure} dakika ${saat} ${dakika} dakikadir`);
 
 // increment decrement
 
-
-let d = 3
+let d = 3;
 
 // pre increment
-console.log(++d) 
+console.log(++d);
 // post increment
-console.log(d++) 
-console.log(d)
+console.log(d++);
+console.log(d);
+
+// assigment operators
+
+let h = 10;
+
+let i = 2;
+
+let j = i;
+console.log(j);
+
+i = 3;
+
+console.log(j); // nin degeri i degistigi icin degismez
+
+// console.log(h -= i);
+// console.log(h*=i);
+// console.log((h /= i));
+
+
+
+
