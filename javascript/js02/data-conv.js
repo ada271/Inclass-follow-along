@@ -36,8 +36,6 @@ console.log(typeof false);
 // FALSY DEGERLER
 // 0 , '', null , undefined
 
-
-
 console.log(Boolean(0));
 console.log(Boolean(null));
 console.log(Boolean(""));
@@ -45,17 +43,83 @@ console.log(Boolean(undefined));
 
 // NULL & undefined & NaN
 
-console.log(typeof null)
+console.log(typeof null);
 
-let n = null
-console.log(Boolean(n))
+let n = null;
+console.log(Boolean(n));
 
-console.log(null + 5)
+console.log(null + 5);
 
 let u;
 
-console.log(Boolean(u))
-console.log(u - 5)
+console.log(Boolean(u));
+console.log(u - 5);
 
-console.log(null == undefined)
+console.log(null == undefined);
 
+console.clear();
+
+console.log(null === null);
+console.log(undefined === undefined);
+console.log(NaN === NaN);
+
+console.log(Boolean(NaN));
+
+// SYMBOLS
+// objelerin property isimleri kullanilabilir
+// unique degerlerdir
+
+const sym1 = Symbol("Hello");
+const sym2 = Symbol("Hello");
+
+console.log(sym1, sym2);
+
+console.log(sym1 == sym2);
+
+/* ---------------------------------- */
+/*           TYPE CONVERSION          */
+/* ---------------------------------- */
+
+
+// numa cevırme
+
+let a = 10;
+let b = "5";
+
+console.log("toplam:", a + b);
+console.log("cikarma:", a - b);
+console.log("carpma:", a * b);
+console.log("bolme:", a / b);
+
+console.log(a + Number(b));
+
+let e = "1234.453";
+
+console.log(parseInt(e));
+console.log(parseFloat(e));
+
+
+// STRINGE CEVIRME
+
+let f = 123.456
+let g = '123.456'
+
+let h = f.toString()
+
+console.log(h)
+
+console.log(f.toString())
+
+// UNARY + 
+
+let i = + g
+console.log(i)
+console.log(typeof i)
+
+// UNARY EX
+
+// const age1 =prompt('enter your age')
+// console.log(typeof age1)
+
+// const age2 = +prompt('enter your age')
+// console.log(typeof age2)
