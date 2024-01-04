@@ -124,4 +124,74 @@ header ul li a {
   align-items: center;
 }
 
+/* ---------------------------------- */
+/*             EXTEND           */
+/* ---------------------------------- */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.articles {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+.articles .article1, .articles .article2 {
+  background-color: gray;
+  width: 50%;
+  height: 10rem;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid brown;
+}
+.articles .article2 {
+  background-color: purple;
+}
+
+/* ---------------------------------- */
+/*               FOOTER               */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/*               IF-ELSE              */
+/* ---------------------------------- */
+footer p {
+  background-color: orange;
+}
+footer .social-icons {
+  display: flex;
+  height: 10rem;
+}
+footer .social-icons .social1 {
+  width: 25%;
+  background-color: #00e6e6;
+  font-size: 1rem;
+  color: red;
+}
+footer .social-icons .social2 {
+  width: 25%;
+  background-color: #00cccc;
+  font-size: 2rem;
+  color: green;
+}
+footer .social-icons .social3 {
+  width: 25%;
+  background-color: #00b3b3;
+  font-size: 3rem;
+  color: pink;
+}
+footer .social-icons .social4 {
+  width: 25%;
+  background-color: #009999;
+  font-size: 4rem;
+  color: aqua;
+}
+footer .social-icons .social5 {
+  width: 25%;
+  background-color: teal;
+  font-size: 5rem;
+  color: hotpink;
+}
+
 /*# sourceMappingURL=style.css.map */
