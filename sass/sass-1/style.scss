@@ -96,3 +96,40 @@ header{
         }
     }
 }
+
+/* ---------------------------------- */
+/*                MIXIN               */
+/* ---------------------------------- */
+
+
+@mixin myBox($backColor,$textColor) {
+    background-color: $backColor;
+    width: 25%;
+    height: 15rem;
+    border-radius: 10px;
+    color: $textColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.cards{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+
+    .card1{
+        @include myBox(red,white);
+    }
+    .card2{
+        @include myBox(grey,white);
+    }
+    .card3{
+        @include myBox(green,red);
+    }
+    .card4{
+        @include myBox(hotpink,black);
+    }
+}
