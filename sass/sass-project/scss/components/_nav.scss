@@ -19,6 +19,7 @@
         text-decoration: none;
         font-family: $font-family;
         font-weight: 500;
+        @include transition(1s);
         &:hover{
             color: $hover-color;
         }
