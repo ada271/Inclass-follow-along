@@ -54,6 +54,32 @@ footer.horizontal {
 }
 
 /* ---------------------------------- */
+/*                ABOUT               */
+/* ---------------------------------- */
+.about-bgImg-container {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-bgImg-container .about__bio-image {
+  text-align: center;
+}
+.about-bgImg-container .about__bio-image h2 {
+  font-size: 3rem;
+  color: #ff652f;
+}
+.about-bgImg-container .about__bio-image p {
+  font-size: 1.2rem;
+  margin: 1.5rem;
+  line-height: 1.5rem;
+}
+
+/* ---------------------------------- */
 /*              HOME PAGE             */
 /* ---------------------------------- */
 .home-bgImg-container {
