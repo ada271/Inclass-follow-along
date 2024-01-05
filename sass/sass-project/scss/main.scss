@@ -1,0 +1,32 @@
+//abstract
+@import './abstracts/mixins';
+@import './abstracts/variables';
+
+//base
+@import './base/reset';
+
+//components
+
+@import './components/footer';
+@import './components/nav';
+@import './components/responsive';
+
+//pages
+
+@import './pages/about';
+@import './pages/contact';
+@import './pages/home';
+@import './pages/project';
+
+body{
+    font-family: $font-family;
+    color: $text-color;
+    background-color: $primary-color;
+    height: 100vh;
+    line-height: 1;
+}
+
+a{
+    color: $text-color;
+    text-decoration: none;
+}
